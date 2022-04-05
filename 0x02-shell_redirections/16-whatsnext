@@ -1,2 +1,2 @@
 #!/bin/bash
-hdfhih
+grep -A 3 "root" /etc/passwd
