@@ -1,2 +1,2 @@
 #!/bin/bash
-Find . -empty | rev| cut -d "/" -f | |cut -d '_' -f 2- | rev | LC_CALL=C sort -f
+Find . -empty | rev | cut -d '/' -f 1 | rev
